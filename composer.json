@@ -1,0 +1,13 @@
+{
+    "name": "name/flight_reservation",
+    "type": "project",
+    "require": {
+        "facebook/php-business-sdk": "^3.0.0"
+    },
+    "authors": [
+        {
+            "name": "Shivansh",
+            "email": "coolmafia.shivansh@gmail.com"
+        }
+    ]
+}
