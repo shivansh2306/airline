@@ -1,0 +1,264 @@
+#title{
+	font-family: sans-serif;
+	font-style: bold;
+	font-size: 50pt;
+	color: orange;
+	display: inline;
+	width: 100%;
+}
+#title2{
+	font-family: Georgia, serif;
+	font-style: bold;
+	font-size: 15pt;
+	float: right;
+	margin-right: 20px;
+}
+.logo{
+	float: left;
+	object-fit: cover;
+    width: 55px;
+   
+    padding: 10px;
+}
+.float_form{
+	float: left;
+}
+.center_form{
+	float: center;
+}
+body{
+	/*background: url(C:/xampp/htdocs/shutterstock_1.jpg);*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: 80px 60px;*/
+	background: white;
+	color: #030337;
+	font-family: sans-serif;
+	margin: 0px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    background-color: #030337;
+}
+li{
+	display: inline;
+	float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 36px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #E7E7F6;
+    color: #030337;
+}
+
+a {
+	color: #030337;
+	text-decoration: none;
+	padding-left: 20px;
+}
+a:hover{
+	background-color: white;
+	color: #030337;
+}
+h2{
+	padding-left: 10px;
+	font-size: 25pt;
+	font-style: bold;
+}
+.heading{
+	font-size:30pt;
+	text-align: center;
+}
+.fix_table{
+	width: 300px;
+}
+.fix_table_short{
+	width: 225px;
+}
+.welcome_text{
+	font-family: Georgia, serif;
+	font-size: 40pt;
+	width: 100%;
+	text-align: center;
+	color: blue;
+	position: absolute;
+	padding: 10 0;
+	margin: auto;
+}
+.admin_func:hover{
+	color: #030337;
+	font-style: italic;
+	text-decoration: underline
+}
+.center_submit{
+	text-align: center;
+}
+h3{
+	padding-left: 30px;
+	font-size: 15pt;
+}
+.login_form{
+	float: left;
+}
+.footer{
+	font-family: sans-serif;
+	font-size: 30pt;
+	width: 100%;
+	background-color: grey;
+	text-align: center;
+	color: white;
+
+	padding: 30 0;
+}
+.about_text{
+	font-family: sans-serif;
+	font-size: 30pt;
+	width: 100%;
+	text-align: center;
+	color: yellow;
+	position: absolute;
+	padding: 50 0;
+	margin: 100 0;
+}
+.icon{
+	font-size: 30pt;
+	width: 100%;
+	padding: 50 0;
+	margin: 50 0;
+}
+.forg{
+	float: right;
+	color: red;
+}
+#choose{
+	cursor: pointer;
+}
+input[type=submit]{
+	cursor: pointer;
+}
+#myDIV {
+  background: red;
+  -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+  animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  left: 95%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 30px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+  font-size: 40px;
+
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiva {
+  display: none;
+  text-align: center;
+}
